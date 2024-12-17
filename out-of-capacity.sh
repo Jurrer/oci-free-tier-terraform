@@ -2,7 +2,7 @@
 # in zsh run with `bash ./out-of-capacity.sh &!`
 
 TERMINATE=0
-DELAY=5  # Delay in seconds between retries
+DELAY=30  # Delay in seconds between retries
 MAX_RETRIES=10  # Number of retries per availability domain before moving to the next
 ARCHIVE_THRESHOLD=15000  # Archive log after this many retries
 LOG_FILE="tf_apply.log"  # Log file name
