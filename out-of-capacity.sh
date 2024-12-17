@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# in zsh run with `bash ./out-of-capacity.sh &!`
+# in zsh run with `bash ./out-of-capacity.sh > /dev/null 2>&1 &!`
 
 TERMINATE=0
 DELAY=30  # Delay in seconds between retries
