@@ -145,7 +145,7 @@ variable "instance_image_ocid" {
     ca-montreal-1     = "ocid1.image.oc1.ca-montreal-1.aaaaaaaalvgfn6kf2zyv3drlek345dkcsf7zmzycd4jcpbfdxtniyax25vpa"
     ca-toronto-1      = "ocid1.image.oc1.ca-toronto-1.aaaaaaaa5zpkh5zev23zq5veisztq7slcu7gfts4otmgtanry5iqfe777kvq"
     eu-amsterdam-1    = "ocid1.image.oc1.eu-amsterdam-1.aaaaaaaaipeu4hiwyn64rwghjz4qrmyzyaoc6woqpxz7xi3zcwducwvbvqma"
-    eu-frankfurt-1    = "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaa4vff5misacsoq2khjgx5qtqtar6gcga2evkqiioorgllxvgksroq"
+    eu-frankfurt-1    = "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaayv5ooieltgy2kxnbubiwi7q4gjtvan634uxnvs42ggovjnwt53rq"
     eu-madrid-1       = "ocid1.image.oc1.eu-madrid-1.aaaaaaaally4556huuq5blmvbv2flxqeofmew5qo65wks36ngixpogr76oka"
     eu-marseille-1    = "ocid1.image.oc1.eu-marseille-1.aaaaaaaafykzrva3nqeps3utsjynkmcxdzxpju5vxxop2x63jvlwzdbokdma"
     eu-milan-1        = "ocid1.image.oc1.eu-milan-1.aaaaaaaasjia5iz7g3vcvwjs4kro3lwfbnvtidnj2adybtbjg5smrvul5ezq"
@@ -168,3 +168,4 @@ variable "instance_image_ocid" {
     us-sanjose-1      = "ocid1.image.oc1.us-sanjose-1.aaaaaaaad2hwp2mets2z3yczo5kt4yjn6mphzt6lueh7274o6rns7ob32doq"
   }
 }
+

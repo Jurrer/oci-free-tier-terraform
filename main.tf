@@ -36,9 +36,9 @@ resource "oci_core_instance" "atlas_instance" {
   }
 
   source_details {
-    source_type = var.instance_source_type
-    source_id   = var.instance_image_ocid[var.region]
-		boot_volume_size_in_gbs = var.boot_volume_size_in_gbs
+    source_type             = var.instance_source_type
+    source_id               = var.instance_image_ocid[var.region]
+    boot_volume_size_in_gbs = var.boot_volume_size_in_gbs
   }
 
   metadata = {
@@ -151,7 +151,7 @@ resource "null_resource" "remote-exec" {
     agent       = false
     timeout     = "30m"
     host        = element(oci_core_instance.atlas_instance.*.public_ip, count.index)
-    user        = "ubuntu"
+    user        = "amper"
     private_key = file(var.ssh_private_key)
   }
 
@@ -163,3 +163,4 @@ resource "null_resource" "remote-exec" {
     ]
   }
 }
+
